@@ -4,7 +4,7 @@
 
 
 function Goldberg  (req, res, next) {
-  console.log(`${req.method} to url: ${req.url} at ${Date()}`);
+  console.log(`There was a ${req.method} request to endpoint: ${req.url} at ${Date()}`);
   next();
 };
 
